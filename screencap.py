@@ -6,12 +6,11 @@ import os
 video_path = "D:/downloads/video.mp4"
 
 # Configurar VLC
+# Desactivar la pista de subtítulos
+args = ['--no-xlib', '--no-spu']
 vlc_instance = vlc.Instance('--no-xlib')
 player = vlc_instance.media_player_new()
 media = vlc_instance.media_new(video_path)
-
-# Desactivar la pista de subtítulos
-media.add_option(':no-subtitles')
 
 player.set_media(media)
 
