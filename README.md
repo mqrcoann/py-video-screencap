@@ -1,6 +1,5 @@
 # py video screencap
- a python script to make screencaps of any video with vlc player
-very useful when you own a anime icon/screencap page
+a python script to make screencaps of any video with vlc player (very useful when you own a anime icon/screencap page)
 
 how to use:
 1. open the script
